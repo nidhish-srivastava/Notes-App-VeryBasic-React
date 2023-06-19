@@ -1,0 +1,5 @@
+U can select items from dropdown,then they will be shown in the bar(which is has selected items)
+
+U can delete items from the selected items bar
+
+u can also delete all the items from the bar

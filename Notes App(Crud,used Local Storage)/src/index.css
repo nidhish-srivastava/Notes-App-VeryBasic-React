@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' , sans-serif;
+    /* background-color: white; */
+    
+  }
+  
+  .dark{
+        background-color: rgb(33, 24, 44);
+        padding-bottom: 0.1rem;
+}
+
+.newNote {
+    width: 70%;
+    margin:4vh auto;
+    background-color: #67d7cc;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  textarea {
+    font-size: 1.4rem;
+    border: none;
+    resize: none;
+    background-color: #67d7cc;
+    outline: none;
+  }
+  
+  .save {
+    background-color: #e1e1e1;
+    font-size: 18px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+small{
+
+    font-size: 18px;
+    padding-top: 14px;
+}
+  
+  .save:hover {
+    background-color: #edda6d;
+    cursor: pointer;
+  }
+  
+  .note-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+
+
+
+  /* Notes cSS */
+
+  
+.note {
+    background-color: #fef68a;
+    border-radius: 10px;
+    padding: 1rem;
+    /* height: 25vh; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    margin: 1rem auto;
+  }
+  
+  .note-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .note-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.0rem;
+    color: rgb(15, 15, 15);
+    font-family: 'Roboto', sans-serif;
+  }
+
+ /* .note-footer small{
+    margin:auto;
+  } */
+  
+  .fa-trash-o {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  button{
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    box-shadow:  2px 3px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
